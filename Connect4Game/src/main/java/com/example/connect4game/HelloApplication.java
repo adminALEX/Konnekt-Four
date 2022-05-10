@@ -72,7 +72,7 @@ public class HelloApplication extends Application {
     private void aboutme() {
         Alert a=new Alert(Alert.AlertType.INFORMATION);
         a.setTitle("About Me");
-        a.setHeaderText("I'm Nandhini Vijayakumar");
+        a.setHeaderText("I'm Alex");
         a.setContentText("Nothing to say right now!!!");
         a.show();
     }
