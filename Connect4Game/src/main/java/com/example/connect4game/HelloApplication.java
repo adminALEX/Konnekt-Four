@@ -33,7 +33,7 @@ public class HelloApplication extends Application {
         Scene scene = new Scene(rootNode);
         stage.setTitle("CONNECT 4 GAME");
         stage.setScene(scene);
-        stage.getIcons().add(new Image("C:\\Users\\Alex\\Desktop\\Connect4Game\\C4G.png"));
+        stage.getIcons().add(new Image("C4G.png"));
 
         stage.setResizable(false);
         stage.show();
