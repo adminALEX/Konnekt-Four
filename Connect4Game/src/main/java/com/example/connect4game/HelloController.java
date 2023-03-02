@@ -29,7 +29,6 @@ import java.util.stream.IntStream;
 
 public class HelloController implements Initializable {
 
-    /* @FXML
      public Pane pane;
      @FXML
      public Button button;*/
@@ -60,8 +59,6 @@ public class HelloController implements Initializable {
     public TextField p2name;
     @FXML
     public Button setName;
-
-    //C:\Users\Bala\IdeaProjects\Connect4Game\out\artifacts\Connect4Game_jar
     public void createPlayground()
     {     System.out.println("Master Grid");
           Shape rec=createGameStructuralGrid();
@@ -93,9 +90,7 @@ public class HelloController implements Initializable {
         return rec;
     }
 
-    private List<Rectangle> createClickableRect(){
-             System.out.println("U Clicked Me");
-        List<Rectangle>  rectList=new ArrayList<>();
+    private List<Rectangle> createClickableRect(){       List<Rectangle>  rectList=new ArrayList<>();
         for(int i=0;i<col;i++) {
             Rectangle r = new Rectangle(80, cir_dia * (row + 1));
             r.setFill(Color.TRANSPARENT);
